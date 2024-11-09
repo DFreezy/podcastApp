@@ -10,7 +10,7 @@ const ShowDetails = ({ selectedPodcast, setSelectedPodcast, addToFavorites }) =>
   const [selectedSeason, setSelectedSeason] = useState(null);
   const [audioPlaying, setAudioPlaying] = useState(false);
   const navigate = useNavigate();
-
+//hey
   useEffect(() => {
     const fetchShowDetails = async () => {
       try {
